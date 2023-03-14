@@ -1,4 +1,5 @@
 // Exercise #1
+
 payments = (basePayMent)  => {
     let fee = 3
     let interestFee = 0.01
@@ -29,3 +30,19 @@ output = () =>{
 }
 output()
 
+// Challenge Yourself
+
+grade = () =>{
+    let rubric = Math.floor(Math.random() * 12) 
+    if(rubric === 12){
+        console.log('Perfect')
+    } else if (rubric >= 8) {
+        console.log('Excellent')
+    } else if (rubric > 5) {
+        console.log('Pass')
+    } else {
+        console.log('Fail')
+    }
+    return rubric
+}
+grade()
