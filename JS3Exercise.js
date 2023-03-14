@@ -38,7 +38,7 @@ grade = () =>{
         console.log('Perfect')
     } else if (rubric >= 8) {
         console.log('Excellent')
-    } else if (rubric > 5) {
+    } else if (rubric >= 5) {
         console.log('Pass')
     } else {
         console.log('Fail')
